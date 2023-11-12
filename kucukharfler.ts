@@ -28,7 +28,7 @@ map.set("z", "⨅");
 
 
 
-function turkishToSymbols(text: string): string {
+function Symbols(text: string): string {
   let result = "";
   for (let char of text) {
     
@@ -43,7 +43,7 @@ function turkishToSymbols(text: string): string {
   return result;
 }
 
-function symbolsToTurkish(text: string): string {
+function symbols(text: string): string {
   let result = "";
   for (let char of text) {
     if (map.hasValue(char)) {
@@ -58,6 +58,6 @@ function symbolsToTurkish(text: string): string {
 }
 
 // Test 
-let turkishText = "cumleyi buraya kucuk harf kullanarak yazınız";
-let symbolText = turkishToSymbols(turkishText);
+let Text = "cumleyi buraya kucuk harf kullanarak yazınız";
+let symbolText = Symbols(Text);
 console.log(symbolText); //ᓵ⚍ᒲꖎᒷ||╎ ʖ⚍∷ᔑ||ᔑ ꖌ⚍ᓵ⚍ꖌ ⍑ᔑ∷⎓ ꖌ⚍ꖎꖎᔑリᔑ∷ᔑꖌ ||ᔑ⨅ıリı⨅

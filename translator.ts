@@ -88,7 +88,7 @@ function symbols(text: string): string {
 }
 
 // Test 
-let option = prompt("Lütfen bir seçenek girin: \n1. Latinceden çevir \n2. Latinceye çevir");
+let option = prompt("Lütfen bir seçenek girin:1-2");
 let Text = prompt("Bir metin girin:");
 if (option == "1") {
   let symbolText = Symbols(Text);
